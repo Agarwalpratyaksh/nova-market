@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #09090b; /* Zinc 950 - Not pure black, but very deep */
+  --foreground: #fafafa; /* Zinc 50 */
+  --border: #27272a;     /* Zinc 800 */
+  --surface: #18181b;    /* Zinc 900 */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* No background images, just pure color */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Minimalist Panel Utility */
+.minimal-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  /* No shadow, flat design */
+}
+
+/* Clean Input Styling */
+.minimal-input {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  transition: border-color 0.2s ease;
+}
+
+.minimal-input:focus {
+  outline: none;
+  border-color: #a1a1aa; /* Zinc 400 */
+}
