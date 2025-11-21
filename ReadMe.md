@@ -7,6 +7,19 @@
 
 Nova Market is a decentralized, trustless NFT marketplace built on Solana. It uses program-owned vaults (PDAs) and atomic swaps to keep listings fully on‑chain and permissionless.
 
+
+---
+
+## 🔗 Deployed Contracts & Links
+
+| Component       | Network | Address / Link |
+|-----------------|---------|----------------|
+| **Program ID**  | Devnet  | `7rT7B67dEjNfR3bitHwcdw2JAgVPCefmDo3yQRP7MZMJ` |
+| **Live Website** | Vercel  | https://novamarketplace.vercel.app/ |
+| **Solana Explorer** | Devnet | https://explorer.solana.com/address/7rT7B67dEjNfR3bitHwcdw2JAgVPCefmDo3yQRP7MZMJ?cluster=devnet |
+
+
+
 ## ✨ Features
 
 - Trustless Escrow: Vaults (PDAs) hold NFTs while listed.
